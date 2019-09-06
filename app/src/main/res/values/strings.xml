@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">行四方货主</string>
+    <string name="button_showDefaultDialog">显示默认对话框</string>
+    <string name="button_showQMUIDialog">显示QUMI对话框</string>
+    <string name="empty"></string>
+
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="title_activity_login">会员登录</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="startlocation">开始定位</string>
+    <string name="stoplocation">停止定位</string>
+    <string name="startforeground">开始后台定位</string>
+    <string name="stopforeground">停止后台定位</string>
+
+
+    <string name="errcode_success">发送成功</string>
+    <string name="errcode_cancel">发送取消</string>
+    <string name="errcode_deny">发送被拒绝</string>
+    <string name="errcode_unsupported">不支持错误</string>
+    <string name="errcode_unknown">发送返回</string>
+
+
+    <!-- WXPayEntryActivity -->
+    <string name="pay_result_tip">这个界面用于显示第三方app通过微信支付的结果</string>
+    <string name="pay_result_callback_msg" formatted="false">微信支付结果：%s</string>
+
+    <string name="app_upgrade_tip_title">Release Notes (%1$s)</string>
+    <!-- 关于界面 -->
+    <string name="about_title">关于</string>
+    <string name="about_item_homepage">访问官网</string>
+    <string name="about_item_github">GitHub</string>
+    <string name="about_copyright">© %1$s QMUI Team All rights reserved.</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    //四方通宝
+    <string name="sftb">&#xe610;</string>
+    //设置
+    <string name="sz">&#xe6e8;</string>
+    //消息
+    <string name="xx">&#xe6c6;</string>
+    //分享
+    <string name="fx">&#xe6d9;</string>
+    //加油卡
+    <string name="jyk">&#xe812;</string>
+    //监控
+    <string name="jk">&#xe81a;</string>
+    //子账号
+    <string name="zzh">&#xe823;</string>
+    //增值税发票
+    <string name="zzsfp">&#xe808;</string>
+    //道路服务
+    <string name="dlfw">&#xe83a;</string>
+    //加油站位置
+    <string name="jyzwz">&#xe706;</string>
+    //找货
+    <string name="zh">&#xe709;</string>
+    //车辆
+    <string name="cl">&#xe811;</string>
+    //ETC
+    <string name="etc">&#xe83b;</string>
+    //货物跟踪权限
+    <string name="hwgzqx">&#xe81d;</string>
+    //评价
+    <string name="pj">&#xe81e;</string>
+    //线路
+    <string name="xl">&#xe809;</string>
+    //加油站
+    <string name="jyz">&#xe80b;</string>
+    //运单
+    <string name="yd">&#xe71a;</string>
+    //特来电
+    <string name="tld">&#xe83e;</string>
+    //油价
+    <string name="yj">&#xe707;</string>
+    //返回
+    <string name="fh">&#xe6e4;</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:state_checked="true"  android:drawable="@mipmap/ic_home_pressed"/>
+    <item android:state_checked="false" android:drawable="@mipmap/ic_home_normal"/>
+
+    <item android:state_checked="true"  android:drawable="@mipmap/fh_b"/>
+    <item android:state_checked="false" android:drawable="@mipmap/fh_y"/>
+
+    <item android:state_checked="true"  android:drawable="@mipmap/jk_b"/>
+    <item android:state_checked="false" android:drawable="@mipmap/jk_y"/>
+
+    <item android:state_checked="true"  android:drawable="@mipmap/wd_b"/>
+    <item android:state_checked="false" android:drawable="@mipmap/wd_y"/>
+
+    <item android:state_checked="true"  android:drawable="@mipmap/xc_b"/>
+    <item android:state_checked="false" android:drawable="@mipmap/xc_y"/>
+
+    <item android:state_checked="true"  android:drawable="@mipmap/yd_b"/>
+    <item android:state_checked="false" android:drawable="@mipmap/yd_y"/>
+
+    <item android:state_checked="true"  android:drawable="@mipmap/yj_b"/>
+    <item android:state_checked="false" android:drawable="@mipmap/yj_y"/>
+
+    <item android:state_checked="true"  android:drawable="@mipmap/zc_b"/>
+    <item android:state_checked="false" android:drawable="@mipmap/zc_y"/>
+
+    <item android:state_checked="true"  android:drawable="@mipmap/zgs_b"/>
+    <item android:state_checked="false" android:drawable="@mipmap/zgs_y"/>
+
+    <item android:state_checked="true"  android:drawable="@mipmap/zh_b"/>
+    <item android:state_checked="false" android:drawable="@mipmap/zh_y"/>
+</selector>

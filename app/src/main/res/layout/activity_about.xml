@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.AboutActivity"
+    android:orientation="vertical">
+    <include
+        layout="@layout/head_layout">
+    </include>
+    <ImageView
+        android:id="@+id/iv_About_Log"
+        android:layout_width="@dimen/dp_180"
+        android:layout_height="@dimen/dp_180"
+        android:layout_marginTop="@dimen/dp_20"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/tv_About_CompanyName"
+        android:layout_width="@dimen/dp_180"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dp_50"
+        android:text="青岛行四方实业发展有限公司"
+        android:textSize="@dimen/sp_13"
+        android:gravity="center"
+        android:textColor="@color/about_text_color"/>
+    <TextView
+        android:id="@+id/tv_About_Tagging"
+        android:layout_width="@dimen/dp_180"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/dp_5"
+        android:text="Copyright@2018-2020 x4f.me"
+        android:textSize="@dimen/sp_12"
+        android:textColor="@color/gray"/>
+</LinearLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_45">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_1_half"
+        android:background="@color/background_manage" />
+    <RadioGroup
+        android:id="@+id/mRadioGroupId"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/dp_5">
+
+        <RadioButton
+            android:id="@+id/radio0"
+            style="@style/Button_style"
+            android:checked="true"
+            android:visibility="gone"
+            android:drawableTop="@drawable/zgs_selector"
+            android:text="布局0"
+            android:textColor="@drawable/color"
+            android:textSize="@dimen/sp_12" />
+
+        <RadioButton
+            android:id="@+id/radio1"
+            style="@style/Button_style"
+            android:visibility="gone"
+            android:drawableTop="@drawable/jk_selector"
+            android:text="布局1"
+            android:textColor="@drawable/color"
+            android:textSize="@dimen/sp_12" />
+        <RadioButton
+            android:id="@+id/radio2"
+            style="@style/Button_style"
+            android:visibility="gone"
+            android:drawableTop="@drawable/yd_selector"
+            android:text="布局2"
+            android:textColor="@drawable/color"
+            android:textSize="@dimen/sp_12" />
+        <RadioButton
+            android:id="@+id/radio3"
+            style="@style/Button_style"
+            android:visibility="gone"
+            android:drawableTop="@drawable/yj_selector"
+            android:text="布局3"
+            android:textColor="@drawable/color"
+            android:textSize="@dimen/sp_12" />
+        <RadioButton
+            android:id="@+id/radio4"
+            style="@style/Button_style"
+            android:visibility="gone"
+            android:drawableTop="@drawable/zh_selector"
+            android:text="布局4"
+            android:textColor="@drawable/color"
+            android:textSize="@dimen/sp_12" />
+        <RadioButton
+            android:id="@+id/radio5"
+            style="@style/Button_style"
+            android:visibility="gone"
+            android:drawableTop="@drawable/xc_selector"
+            android:text="布局5"
+            android:textColor="@drawable/color"
+            android:textSize="@dimen/sp_12" />
+        <RadioButton
+            android:id="@+id/radio6"
+            style="@style/Button_style"
+            android:visibility="gone"
+            android:drawableTop="@drawable/yd_selector"
+            android:text="布局6"
+            android:textColor="@drawable/color"
+            android:textSize="@dimen/sp_12" />
+        <RadioButton
+            android:id="@+id/radio7"
+            style="@style/Button_style"
+            android:visibility="gone"
+            android:drawableTop="@drawable/zc_selector"
+            android:text="布局7"
+            android:textColor="@drawable/color"
+            android:textSize="@dimen/sp_12" />
+        <RadioButton
+            android:id="@+id/radio8"
+            style="@style/Button_style"
+            android:visibility="gone"
+            android:drawableTop="@drawable/fh_selector"
+            android:text="布局8"
+            android:textColor="@drawable/color"
+            android:textSize="@dimen/sp_12" />
+        <RadioButton
+            android:id="@+id/radio9"
+            style="@style/Button_style"
+            android:visibility="gone"
+            android:drawableTop="@drawable/wd_selector"
+            android:text="布局9"
+            android:textColor="@drawable/color"
+            android:textSize="@dimen/sp_12" />
+    </RadioGroup>
+</RelativeLayout>
